@@ -24,6 +24,10 @@ default: &default
 development:
   <<: *default
   database: backend_development
+  username: test
+  password: test
+  host: localhost
+  port: 5432
 
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
@@ -81,6 +85,4 @@ test:
 #
 production:
   <<: *default
-  database: backend_production
-  username: backend
-  password: <%= ENV['BACKEND_DATABASE_PASSWORD'] %>
+  url: <%= ENV['DBURI'] %>
