@@ -2,6 +2,7 @@ Rails.application.routes.draw do
   # make post routes
   resources :posts
 
+
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 
   ## to get all crud routes for the user model, only create create here though
