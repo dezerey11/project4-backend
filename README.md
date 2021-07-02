@@ -1,24 +1,21 @@
-# README
+# BATMAN COLLECTOR’S MARKETPLACE API
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## LINK TO THE API
 
-Things you may want to cover:
+https://project4-classifiedads-backend.herokuapp.com/
 
-* Ruby version
+## TECHNOLOGIES USED
 
-* System dependencies
+- Ruby on Rails
+- Postgres
+- Postman
 
-* Configuration
+## APPROACH TAKEN
 
-* Database creation
+The backend of this application was coded using Ruby on Rails and served a JSON API with CRUD operations to the frontend. The user and post models were set up with a one-to-many relationship. User authentication was set up using JSON Web Tokens (JWTs).
 
-* Database initialization
+## UNSOLVED PROBLEMS/FUTURE ENHANCEMENTS
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- Prevent blank posts from being created
+- Get new and updated posts to appear at the top of the screen
+- Get new users to sign up and give them full CRUD operations on their posts
